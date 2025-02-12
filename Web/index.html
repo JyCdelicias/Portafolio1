@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+            color: white;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            scroll-behavior: smooth;
+        }
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.4);
+            backdrop-filter: blur(10px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s ease, box-shadow 0.3s ease;
+            padding: 10px 15px;
+            border-radius: 5px;
+        }
+        nav ul li a:hover {
+            color: #00c6ff;
+            box-shadow: 0 4px 10px rgba(0, 198, 255, 0.6);
+        }
+        section {
+            padding: 60px 20px;
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            margin-top: 30px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+        }
+        #about ul, #hobbies ul, #projects ul {
+            text-align: left;
+            display: inline-block;
+        }
+        #about img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+            max-height: 400px;
+            object-fit: cover;
+        }
+        footer {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.4);
+            margin-top: 30px;
+            backdrop-filter: blur(10px);
+        }
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Future Projects</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My name is Juan Carlos, I currently belong to the computer science program at Universidad EIA in Medellin, Antioquia. I graduated from Colegio Campestre La Colina in Medellin. Some of my skills include:</p>
+        <ul>
+            <li>Mathematical Agility</li>
+            <li>Knowledge in finance, including the stock market and private equity funds</li>
+            <li>Performance in a variety of sports</li>
+            <li>Completely fluent in two languages: English and Spanish</li>
+        </ul>
+        <img src="images/Myphoto.png" alt="Juan Carlos">
+    </section>
+
+    <section id="projects">
+        <h2>Future Projects</h2>
+        <ul>
+            <li><strong>Expand my financial knowledge:</strong> My primary focus after completing my degree is to deepen my understanding of finance.</li>
+            <li><strong>Opening a private fund:</strong> Once I have acquired the necessary knowledge and raised the required capital, I plan to establish a private hedge fund.</li>
+            <li><strong>Creating an automated web design platform:</strong> After gaining a better understanding of AI, I aim to launch a startup that automates web design, enabling users with little to no programming experience to create professional websites effortlessly.</li>
+        </ul>
+    </section>
+
+    <section id="hobbies">
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Playing chess</li>
+            <li>Going to the gym</li>
+            <li>Learning new things</li>
+            <li>Networking and meeting new people</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: juancaechavar306@gmail.com</p>
+        <p>Instagram: <a href="https://www.instagram.com/juanc0721_/" target="_blank">@juanc0721_</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Juan Carlos</p>
+    </footer>
+</body>
+</html>
